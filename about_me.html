@@ -2,11 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me</title>
+  <title>About Me - SHARE Lab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; padding-top: 20px; }
+    body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; padding-top: 0; }
+    .jumbotron {
+      background-color: #f5f5f5;
+      padding: 30px 20px;
+      margin-bottom: 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .jumbotron h1 {
+      font-weight: bold;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .jumbotron .lead {
+      font-size: 18px;
+      color: #555;
+    }
+    .navbar {
+      margin-bottom: 20px;
+    }
     .container { max-width: 960px; margin: auto; }
     .section { margin-bottom: 40px; }
     .footer {
@@ -19,27 +37,76 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1 class="text-center">About Me</h1>
 
-    <div class="section">
-      <p>I am an Assistant Professor of Mechanical Engineering at Texas Tech University. I received my PhD in Mechanical Engineering in 2022 from Pennsylvania State University. Previously, I also received the M.S. degree in Mathematics from University of Central Florida in 2015 and the M.E. degree in Electrical Engineering from the Indian Institute of Engineering Science and Technology (IIEST), Shibpur, India in 2011.</p>
+<div class="container">
+  <!-- Header -->
+  <header class="jumbotron text-center">
+    <p class="lead">Department of Mechanical Engineering</p>
+    <h1>Smart Human-centric Automation Resilience (SHARE) Lab</h1>
+  </header>
 
-      <p>Between 2011-13, I worked as a Research Consultant for Indian Institute of Technology (IIT), Kharagpur. <a href="Curriculum_Vitae_Tansuhree_Roy.pdf">Here is my CV</a>.</p>
-
-      <p>I am looking for motivated students to apply for PhD. Please look under the Open positions tab. Admitted Master’s and undergraduate students at Texas Tech University interested in our research should email me with their CV and areas of interest.</p>
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="about_me.html">About Me</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="#">Publications</a></li>
+        <li><a href="#">Lab Members</a></li>
+        <li><a href="#">Teaching</a></li>
+        <li><a href="#">Outreach and Engagement</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <div class="section">
-      <h3>Research</h3>
-      <p>My research goal is to build a resilient future for human-centric smart cities. The high‐level goal of such smart cities is to provide better value of services by optimally using the available resources, minimizing the operational cost, maximizing the safety and security, and improving quality of life.</p>
+  <!-- Main Content -->
+  <h2 class="text-center">About Me</h2>
 
-      <p>My current research is focused on the resilience of socio-technical systems, such as smart transportation and energy storage systems. I combine control theoretic techniques, mathematical modeling, and machine learning to ensure the safety and the cybersecurity of such human-centric smart city infrastructures.</p>
-    </div>
+  <div class="section">
+    <p>I am an Assistant Professor of Mechanical Engineering at Texas Tech University. I received my PhD in Mechanical Engineering in 2022 from Pennsylvania State University. Previously, I also received the M.S. degree in Mathematics from University of Central Florida in 2015 and the M.E. degree in Electrical Engineering from the Indian Institute of Engineering Science and Technology (IIEST), Shibpur, India in 2011.</p>
 
-    <div class="footer">
-      <p>&copy; 2025 Dr. Tanushree Roy | SHARE Lab | Texas Tech University</p>
-    </div>
+    <p>Between 2011-13, I worked as a Research Consultant for Indian Institute of Technology (IIT), Kharagpur. <a href="#">Here is my CV</a>.</p>
+
+    <p>I am looking for motivated students to apply for PhD. Please look under the Open positions tab. Admitted Master’s and undergraduate students at Texas Tech University interested in our research should email me with their CV and areas of interest.</p>
   </div>
+
+  <div class="section">
+    <h3>Research</h3>
+    <p>My research goal is to build a resilient future for human-centric smart cities. The high‐level goal of such smart cities is to provide better value of services by optimally using the available resources, minimizing the operational cost, maximizing the safety and security, and improving quality of life.</p>
+
+    <p>My current research is focused on the resilience of socio-technical systems, such as smart transportation and energy storage systems. I combine control theoretic techniques, mathematical modeling, and machine learning to ensure the safety and the cybersecurity of such human-centric smart city infrastructures.</p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="row">
+      <div class="col-sm-5">
+        <h4>Contact</h4>
+        <p><strong>Email:</strong> <a href="mailto:tanushree.roy@ttu.edu">tanushree.roy@ttu.edu</a></p>
+        <p><strong>Phone:</strong> (806) 834-8757</p>
+      </div>
+      <div class="col-sm-2 text-center">
+        <img src="images/logo.jpg" alt="Lab Logo" style="max-height:80px;">
+      </div>
+      <div class="col-sm-5">
+        <h4>Address</h4>
+        <p>
+          SHARE Lab<br>
+          Mechanical Engineering Dept.<br>
+          Texas Tech University<br>
+          Box 41021, Lubbock, TX
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>
+
